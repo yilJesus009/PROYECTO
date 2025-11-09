@@ -1,0 +1,147 @@
+/* ========== LOGIN - MOBILE ========== */
+.registro__container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 10px;
+}
+.registro__card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 450px;
+}
+.registro__card h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.registro__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form__grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form__grupo label {
+    font-size: 14px;
+    color: #666;
+}
+.form__grupo input {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.registro__button {
+    background-color: #3884f5;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.registro__button:hover {
+    background-color: #2968c7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(56, 132, 245, 0.3);
+}
+#olvidaste_contraseña  {
+    text-align: right;
+}
+p a {
+    color: #3884f5;
+    text-decoration: none;
+}
+p  span {
+    color: #666;
+}
+p{
+    text-align: center;
+}
+
+
+/* ========== LOGIN - TABLET ========== */
+@media (min-width: 768px) {
+    .registro__container {
+        padding: 60px 40px;
+    }
+
+    .registro__card {
+        padding: 40px 35px;
+        max-width: 500px;
+    }
+
+    .registro__card h2 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .registro__form {
+        gap: 25px;
+    }
+
+    .form__grupo label {
+        font-size: 15px;
+    }
+
+    .form__grupo input {
+        padding: 14px 18px;
+        font-size: 16px;
+    }
+
+    .registro__button {
+        padding: 16px;
+        font-size: 18px;
+    }
+}
+
+/* ========== LOGIN - DESKTOP ========== */
+@media (min-width: 1025px) {
+    .registro__container {
+        padding: 80px 60px;
+    }
+
+    .registro__card {
+        padding: 50px 45px;
+        max-width: 550px;
+    }
+
+    .registro__card h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .registro__form {
+        gap: 28px;
+    }
+
+    .form__grupo label {
+        font-size: 16px;
+    }
+
+    .form__grupo input {
+        padding: 15px 20px;
+        font-size: 17px;
+    }
+
+    .registro__button {
+        padding: 18px;
+        font-size: 20px;
+    }
+
+    .registro__footer {
+        font-size: 15px;
+    }
+}

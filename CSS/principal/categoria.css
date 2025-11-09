@@ -1,0 +1,107 @@
+/* ========== CATEGORÍAS - MOBILE ========== */
+.categorias__container {
+    padding: 40px 20px;
+    /* background-color: red; */
+}
+
+.categorias__lista h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.categorias__categorias ul {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categorias__categorias li {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.categorias__categorias li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(56, 132, 245, 0.2);
+}
+.categorias__categorias li i {
+    font-size: 48px;
+    color: #3884f5;
+    transition: transform 0.3s ease;
+}
+
+.categorias__categorias a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+/* ========== CATEGORÍAS - TABLET ========== */
+@media (min-width: 768px) {
+    .categorias__container {
+        padding: 60px 40px;
+    }
+
+    .categorias__lista h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .categorias__categorias ul {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en tablet */
+        gap: 20px;
+    }
+
+    .categorias__categorias li {
+        padding: 40px 30px;
+    }
+     .categorias__categorias li i {
+        font-size: 56px;
+    }
+
+    .categorias__categorias a {
+        font-size: 20px;
+    }
+}
+
+/* ========== CATEGORÍAS - DESKTOP ========== */
+@media (min-width: 1025px) {
+    .categorias__container {
+        padding: 80px 60px;
+    }
+
+    .categorias__lista h2 {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+
+    .categorias__categorias ul {
+        grid-template-columns: repeat(4, 1fr); /* Cuatro columnas en desktop */
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .categorias__categorias li {
+        padding: 50px 30px;
+        gap: 25px;
+    }
+    .categorias__categorias li i {
+        font-size: 64px;
+    }
+
+    .categorias__categorias a {
+        font-size: 22px;
+    }
+}

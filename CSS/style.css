@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 10px;
+
+}
+.main__container{
+    width: 100%;
+    min-height: 100vh;
+}

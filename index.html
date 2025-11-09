@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/fonts.css">
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="CSS/principal/header.css">
+    <link rel="stylesheet" href="CSS/principal/banner.css">
+    <link rel="stylesheet" href="CSS/principal/categoria.css">
+    <link rel="stylesheet" href="CSS/principal/destacados.css">
+
+    <title>Inicio</title>
+    
+</head>
+<body>
+    <main class="main__container">
+        <header class="header__container">
+            <div>
+            <img class="header__logo" src="IMG/principal/logo.png" alt="Logo de Idea Star">
+            <h1>IdeaStar</h1>
+            </div>
+            <nav class="nav__menu">
+                <label class="menu__mobile" for="menu__switch">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input id="menu__switch" type="checkbox">
+                <ul class="ul__header">
+                    <li class="ul__header_item"><a href="index.html">Inicio</a></li>
+                    <li class="ul__header_item"><a href="explorarPro.html">Explorar Proyectos</a></li>
+                    <li class="ul__header_item" id="id__registro"><a href="registro.html">Registro</a></li>
+                    <li class="ul__header_item" id="id__login"><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="banner__container">
+            <div class="banner__text">
+                <h2>Impulsa ideas, cambia el mundo</h2>
+                <p>Plataforma de crowdfunding para proyectos creativos y emprendimientos</p>
+                <a href="explorarPro.html" class="banner__button">Explorar Proyectos</a>
+            </div>
+        </section>
+
+        <section class="categorias__container">
+            <div class="categorias__lista">
+                <h2>Categorias</h2>
+                <nav class="categorias__categorias">
+                    <ul>
+                        <li class="ul__header_item">
+                            <i class="fa-solid fa-laptop"></i>
+                            <a href="#">Tecnología</a>
+                        </li>
+                        <li class="ul__header_item">
+                            <i class="fa-solid fa-palette"></i>
+                            <a href="#">Arte</a>
+                        </li>
+                        <li class="ul__header_item">
+                            <i class="fa-solid fa-music"></i>
+                            <a href="#">Música</a>
+                        </li>
+                        <li class="ul__header_item">
+                            <i class="fa-solid fa-flask"></i>
+                            <a href="#">Ciencia</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        
+    <section class="destacados__container">
+        <div class="destacados__lista">
+            <h2>Proyectos Destacados</h2>
+            
+            <div class="destacados__proyectos">
+                <!-- Proyecto 1 -->
+                <article class="proyecto__card">
+                    <img src="IMG/principal/relojeco.png" alt="SmartWatch Eco-Friendly" class="proyecto__imagen">
+                    <div class="proyecto__info">
+                        <h3 class="proyecto__titulo">SmartWatch Eco-Friendly</h3>
+                        <p class="proyecto__meta">Meta: $20,000 - 75% completado</p>
+                        <div class="proyecto__progreso">
+                            <div class="proyecto__barra" style="width: 75%;"></div>
+                        </div>
+                        <span class="proyecto__porcentaje">75% completado</span>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="proyecto__card">
+                    <img src="IMG/principal/matesapp.png" alt="Math Equation Solver App" class="proyecto__imagen">
+                    <div class="proyecto__info">
+                        <h3 class="proyecto__titulo">Math Equation Solver App</h3>
+                        <p class="proyecto__meta">Meta: $15,000 - 60% completado</p>
+                        <div class="proyecto__progreso">
+                            <div class="proyecto__barra" style="width: 60%;"></div>
+                        </div>
+                        <span class="proyecto__porcentaje">60% completado</span>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="proyecto__card">
+                    <img src="IMG/principal/proyecto3.png" alt="Proyecto 3" class="proyecto__imagen">
+                    <div class="proyecto__info">
+                        <h3 class="proyecto__titulo">Proyecto Innovador 3</h3>
+                        <p class="proyecto__meta">Meta: $25,000 - 45% completado</p>
+                        <div class="proyecto__progreso">
+                            <div class="proyecto__barra" style="width: 45%;"></div>
+                        </div>
+                        <span class="proyecto__porcentaje">45% completado</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>

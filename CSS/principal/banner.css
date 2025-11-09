@@ -1,0 +1,99 @@
+.banner__container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* O tu color preferido */
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px 0px;
+}
+
+.banner__text {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.banner__text h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 15px;
+    /* line-height: 1.2 */
+}
+
+.banner__text p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.banner__button {
+    display: inline-block;
+    background-color: #3884f5;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.banner__button:hover {
+    background-color: #2968c7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(56, 132, 245, 0.4);
+}
+
+/* ========== BANNER - TABLET ========== */
+@media (min-width: 768px) {
+    .banner__container {
+        padding: 80px 20px;
+        border-radius: 20px;
+        margin: 55px;
+    }
+
+    .banner__text {
+        max-width: 700px;
+    }
+
+    .banner__text h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .banner__text p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .banner__button {
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+}
+
+/* ========== BANNER - DESKTOP ========== */
+@media (min-width: 1025px) {
+    .banner__container {
+        padding: 100px 20px;
+        margin: 55px 20px;
+    }
+
+    .banner__text {
+        max-width: 800px;
+    }
+
+    .banner__text h2 {
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+
+    .banner__text p {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .banner__button {
+        padding: 18px 50px;
+        font-size: 20px;
+    }
+}
