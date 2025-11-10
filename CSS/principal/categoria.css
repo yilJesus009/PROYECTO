@@ -1,4 +1,3 @@
-/* ========== CATEGORÍAS - MOBILE ========== */
 .categorias__container {
     padding: 40px 20px;
     /* background-color: red; */
@@ -29,10 +28,7 @@
     transition: all 0.3s ease;
 }
 
-.categorias__categorias li:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 16px rgba(56, 132, 245, 0.2);
-}
+
 .categorias__categorias li i {
     font-size: 48px;
     color: #3884f5;

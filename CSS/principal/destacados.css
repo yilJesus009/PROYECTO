@@ -1,6 +1,5 @@
 .destacados__container {
     padding: 40px 20px;
-    background-color: white;
 }
 
 .destacados__lista h2 {
@@ -24,10 +23,6 @@
     transition: all 0.3s ease;
 }
 
-.proyecto__card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
 
 .proyecto__imagen {
     width: 100%;
@@ -63,10 +58,16 @@
     border-radius: 10px;
     transition: width 0.5s ease;
 }
+.div__proyecto__porcentaje {
+    display: flex;
+    justify-content: space-between;
+}
 .proyecto__porcentaje {
     font-size: 12px;
     color: #4CAF50;
-    font-weight: bold;
+}
+.div__proyecto__porcentaje a{
+    color: #3884f5;
 }
 
 /* ========== PROYECTOS DESTACADOS - TABLET ========== */
